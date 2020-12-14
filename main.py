@@ -257,7 +257,7 @@ while (counter <= 500):
 best = 0
 bestID = 0
 
-# Выбор лучшего результата из всех (обычно их 1-2)
+# Выбор лучшего результата из всех
 for i in range(0, len(ListOfBest)):
     if getW(ListOfBest[i]) > best and getP(ListOfBest[i]) < 12 and getVES(ListOfBest[i]) < 13000:
         best = getW(ListOfBest[i])
